@@ -89,7 +89,7 @@ resource "aws_instance" "grafana" {
   iam_instance_profile   = aws_iam_instance_profile.grafana_profile.name
 
   tags = {
-    Name = "mate-aws-grafana-lab-iam"
+    Name = "mate-aws-grafana-lab"
   }
 
   depends_on = [
